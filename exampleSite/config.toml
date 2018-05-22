@@ -8,7 +8,9 @@ title = "Lab Notebook"
 [params]
 	author = "Andrew Butler"
 	dateformat = "Jan 2, 2006"
-
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  
 ## Main Menu
 [[menu.main]]
 	name = "Archive"
@@ -20,3 +22,8 @@ title = "Lab Notebook"
     identifier = "getting-started"
     weight = 200
 	url = "/getting-started/"
+[[menu.main]]
+    name = "Search"
+    identifier = "search"
+    weight = 99999
+    url = "/search/"
