@@ -1,0 +1,21 @@
+.post-table{
+	border-collapse: collapse;
+	border-style: hidden;
+}
+.post-table tr {
+    background-color: #fff!important;
+}
+.post-table td {
+    background-color: #fff !important;
+    border: 0px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
