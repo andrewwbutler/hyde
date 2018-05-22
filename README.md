@@ -8,37 +8,41 @@ It pairs a prominent sidebar with uncomplicated content.
 
 ## Contents
 
-- [Installation](#installation)
+- [Getting started](#getting-started)
 - [Options](#options)
   - [Sidebar menu](#sidebar-menu)
   - [Sticky sidebar content](#sticky-sidebar-content)
   - [Themes](#themes)
   - [Reverse layout](#reverse-layout)
-  - [Disqus](#disqus)
-  - [Google Analytics](#google-analytics)
 - [Author](#author)
 - [Ported by](#ported-by)
+- [Modified by](#modified-by)
 - [License](#license)
 
 
-## Installation
+## Getting started
 
-To install Hyde as your default theme, first install this repository in the `themes/` directory:
+This is a template for my computational lab notebook which is built using [blogdown](https://bookdown.org/yihui/blogdown/) and a modified version of the hyde theme for [hugo](https://gohugo.io). To get started:
+1. Install [R](https://www.r-project.org/) and [RStudio](https://www.rstudio.com/).
+2. Install [blogdown](https://bookdown.org/yihui/blogdown/).
+3. Create a new site
+```r
+blogdown::new_site(theme = "andrewwbutler/hyde-lab-notebook", dir = "~/Projects/lab-notebook/")
+```
 
-    $ cd themes/
-    $ git clone https://github.com/spf13/hyde.git
+## What to Modify
 
-Second, specify `hyde` as your default theme in the `config.toml` file. Just add the line
-
-    theme = "hyde"
-
-at the top of the file.
-
+1. config.toml
+* Change baseurl (if not hosting, use "/") and title
+* Add params section
+```
+[params]
+  author = "Firstname Lastname"
+```
 
 ## Options
 
 Hyde includes some customizable options, typically applied via classes on the `<body>` element.
-
 
 ### Sidebar menu
 
@@ -118,37 +122,6 @@ params:
   layoutReverse: true
 ```
 
-### Disqus
-
-You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable `disqusShortname` to your config file.
-
-**TOML**
-```toml
-disqusShortname = "spf13"
-```
-
-**YAML**
-```yaml
-disqusShortname : spf13
-```
-
-> **Note:** Previous version 1.0 the Disqus shortname had to be defined inside the `[params]` block.
-
-
-## Google Analytics
-
-Google Analytics can be enabled by assigning your tracking code to the `googleAnalytics` variable in the config file:
-
-**TOML**
-```toml
-googleAnalytics = "Your tracking code"
-```
-
-**YAML**
-```yaml
-googleAnalytics: Your tracking code
-```
-
 ## Author
 **Mark Otto**
 - <https://github.com/mdo>
@@ -158,6 +131,11 @@ googleAnalytics: Your tracking code
 **Steve Francia**
 - <https://github.com/spf13>
 - <https://twitter.com/spf13>
+
+## Modified By 
+**Andrew Butler**
+- <https://github.com/andrewwbutler>
+- <https://twitter.com/aw_butler>
 
 ## License
 

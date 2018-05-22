@@ -1,14 +1,14 @@
 name = "Hyde"
 license = "MIT"
-licenselink = "https://github.com/spf13/hyde/blob/master/LICENSE.md"
-description = "An elegant open source and mobile first theme"
-tags = ["blog", "company"]
-features = ["blog", "themes", "disqus"]
+licenselink = "https://github.com/andrewwbutler/hyde-lab-notebook/blob/master/LICENSE.md"
+description = "Lab notebook theme based on hyde"
+tags = ["notebook"]
+features = ["blog", "themes"]
 min_version = 0.21
 
 [author]
-    name = "spf13"
-    homepage = "http://spf13.com"
+    name = "andrewwbutler"
+    repo = "https://www.github.com/andrewwbutler/hyde-lab-notebook"
 
 # If Porting existing theme
 [original]
