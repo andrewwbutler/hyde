@@ -3,5 +3,19 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Lab Notebook"
 
+
+## Site Settings
 [params]
- author = "Andrew Butler"
+	author = "Andrew Butler"
+
+## Main Menu
+[[menu.main]]
+	name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Getting Started"
+    identifier = "getting-started"
+    weight = 200
+	url = "/getting-started/"

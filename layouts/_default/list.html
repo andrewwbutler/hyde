@@ -1,9 +1,10 @@
-{{ define "main" -}}
-<ul class="posts">
-{{ range .Data.Pages -}}
-  <li>
-    <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
-  </li>
-{{- end }}
-</ul>
+{{ define "header" -}}
+    {{ partial "header.html" . }}
+{{- end -}}
+
+{{ define "content" -}}
+    {{ partial "content_list.html" . }}
+{{- end -}}
+
+{{ define "footer" -}}
 {{- end }}
