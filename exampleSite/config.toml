@@ -1,0 +1,7 @@
+theme = "hyde-lab-notebook"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Lab Notebook"
+
+[params]
+ author = "Andrew Butler"
