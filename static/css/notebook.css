@@ -4,10 +4,14 @@
 }
 .post-table tr {
     background-color: #fff!important;
+    width: 50%;
+
 }
 .post-table td {
     background-color: #fff !important;
     border: 0px;
+    width: 50%;
+
 }
 
 hr {

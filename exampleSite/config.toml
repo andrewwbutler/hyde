@@ -13,10 +13,10 @@ title = "Lab Notebook"
   
 ## Main Menu
 [[menu.main]]
-	name = "Archive"
+    name = "Archive"
     weight = 100
     identifier = "archive"
-    url = "/post/"
+    url = "/archive/"
 [[menu.main]]
     name = "Getting Started"
     identifier = "getting-started"
