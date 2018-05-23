@@ -2,7 +2,7 @@ theme = "hyde-lab-notebook"
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Lab Notebook"
-
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 ## Site Settings
 [params]
