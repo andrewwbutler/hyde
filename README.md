@@ -1,14 +1,7 @@
-# Hyde
-
-Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
-It pairs a prominent sidebar with uncomplicated content.
-
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
-
-
 ## Contents
 
 - [Getting started](#getting-started)
+- [Hyde](#hyde)
 - [Options](#options)
   - [Sidebar menu](#sidebar-menu)
   - [Sticky sidebar content](#sticky-sidebar-content)
@@ -29,16 +22,15 @@ This is a template for my computational lab notebook which is built using [blogd
 ```r
 blogdown::new_site(theme = "andrewwbutler/hyde-lab-notebook", dir = "~/Projects/lab-notebook/")
 ```
+4. Add new entries (easy through the Addins menu in Rstudio)
 
-## What to Modify
+## Hyde
 
-1. config.toml
-* Change baseurl (if not hosting, use "/") and title
-* Add params section
-```
-[params]
-  author = "Firstname Lastname"
-```
+Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
+It pairs a prominent sidebar with uncomplicated content.
+
+![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+
 
 ## Options
 
